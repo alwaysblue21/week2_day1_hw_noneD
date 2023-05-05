@@ -10,17 +10,21 @@
 /////////////// section2 /////////////////
 //////////////////////////////////////////
 // Write a function checkPalindrome that accepts a single argument, a string. The function should return true (Boolean) if the string is a palindrome, false if it is not. Make sure your function will give the correct answer for words with capital letters.
-function checkPalindrome(str) {
-    // Convert the string to lowercase.. just in case it starts with uppercase..
-    str = str.toLowerCase();
+// lowercase -> reverse -> check if its true after reversing it...
 
-    // Reverse the lowercased string...., array -> reverse -> string..
-    str2 = str.split("").reverse().join("");
+// function checkPalindrome(str) {
+//     // Convert the string to lowercase.. just in case it starts with uppercase..
+//     str = str.toLowerCase();
 
-    // Compare the original string to the reversed string...
-    return str === str2
-  }
+//     // Reverse the lowercased string...., array -> reverse -> string..
+//     str2 = str.split("").reverse().join("");
 
-  console.log(checkPalindrome("Radar"));
-  console.log(checkPalindrome("Jemin"));
-  console.log(checkPalindrome("Yun"));
+//     // Compare the original string to the reversed string...
+//     return str === str2
+//   }
+
+//   console.log(checkPalindrome("Radar"));
+//   console.log(checkPalindrome("Jemin"));
+//   console.log(checkPalindrome("Yun"));
+
+  ////////////////// section 3 ////////////////////
