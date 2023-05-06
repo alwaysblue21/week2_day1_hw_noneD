@@ -45,6 +45,39 @@
 
 // console.log(sumArray([1, 2, 3, 4, 5, 6]));
 
+/////////////////// section 4 ////////////////////
+//////////////////////////////////////////////////
+
+// Write a function called checkPrime that will test whether a number is Prime. The function will return true (Boolean) if Prime, false if not.
+// 1 is not a prime number ->  2 is the only even prime number -> square root???? even nums other than 2 cant be prime number...so its every odd nums?
+// function checkPrime(num) {
+//   //check if the number is less than 2....
+//   if (num < 2) {
+//     return false;
+//   }
+//   // check if the number is an even number other than 2..
+//   if (num % 2 === 0) {
+//     return num === 2;
+//   }
+//   // check every odd numbers not including 1???? Check every number up to the square root. To do this, try a for loop
+//   for (i = 3; i <= Math.sqrt(num); i+=2) {
+//     if (num % i === 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+// console.log(checkPrime(17));
+
+// //Write another function called printPrimes that will print (console log) all the Primes up to an arbitrary limit. For example, if you invoke your function with printPrimes(97), it will print all the Prime numbers up to and including 97.
+// function printPrimes(limit) {
+//   for (let i = 2; i <= limit; i++) {
+//     if (checkPrime(i)) {
+//       console.log(i);
+//     }
+//   }
+// }
+// printPrimes(97);
 
 
 
