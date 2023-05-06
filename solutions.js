@@ -79,8 +79,29 @@
 // }
 // printPrimes(97);
 
+//////////////// section 5 /////////////////
+///////////////////////////////////////////
+// Write a function called randomMove that returns a randomly chosen move (rock, paper, or scissors).
+// function randomMove() {
+//   const moves = ["rock", "paper", "scissors"];
+//   return moves[Math.floor(Math.random()*moves.length)];
+// }
+// console.log(randomMove());
 
-
+// //then create a function called rockPaperScissors that runs one round of the game. It should accept two arguments, the computer's move and the user's move, and somehow compare the two to decide who the winner is and return who won.
+// function rockPaperScissors(computerMove, userMove) {
+//   if (computerMove === userMove) {
+//     return "It's a TIE!!!"
+//   } else if (
+//     computerMove === "rock" && userMove === "scissors" ||
+//     computerMove === "scissors" && userMove === "paper" ||
+//     computerMove === "paper" && userMove === "rock"
+//   ) {
+//     return "Computer WINS!!!!!!!";
+//   }
+//     return "User WINSSSS!!!!!!!";
+// }
+// console.log(rockPaperScissors(randomMove(), randomMove()));
 
 
 
